@@ -184,15 +184,6 @@ export default function Hero() {
                       'linear-gradient(to top, rgba(0,27,61,0.55) 0%, rgba(0,27,61,0.1) 40%, transparent 100%)',
                   }}
                 />
-                {/* Bottom name badge */}
-                <div className="absolute bottom-6 left-6 right-6">
-                  <p
-                    className="text-white/90 text-xs tracking-widest uppercase"
-                    style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                  >
-                    Former VP — Pfizer Inc.
-                  </p>
-                </div>
               </div>
 
               {/* Floating stat card */}
