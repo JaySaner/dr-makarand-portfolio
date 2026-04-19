@@ -70,12 +70,12 @@ export default function Portfolio() {
             className="text-right"
           >
             <p
-              className="text-slate-400 text-xl mb-1"
+              className="text-slate-600 text-xl mb-1"
               style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}
             >
               Pfizer Central Research
             </p>
-            <p className="text-[10px] font-mono tracking-widest uppercase text-slate-300">
+            <p className="text-[10px] font-mono tracking-widest uppercase text-slate-500">
               1982 — 2011 Leadership
             </p>
           </motion.div>
@@ -106,7 +106,7 @@ export default function Portfolio() {
                 {/* Number + Icon row */}
                 <div className="flex items-center justify-between mb-8">
                   <span
-                    className="text-slate-100 font-bold"
+                    className="text-slate-200 font-bold"
                     style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '3rem', lineHeight: 1 }}
                   >
                     {item.num}
@@ -145,7 +145,7 @@ export default function Portfolio() {
                 >
                   {item.title}
                 </h3>
-                <p className="text-slate-500 text-sm leading-relaxed font-light">{item.description}</p>
+                <p className="text-slate-700 text-sm leading-relaxed font-light">{item.description}</p>
 
                 {/* Bottom hover arrow */}
                 <div className="mt-8 flex items-center justify-end">
@@ -154,7 +154,7 @@ export default function Portfolio() {
                   >
                     <ArrowUpRight
                       size={14}
-                      className="text-slate-300 group-hover:text-white transition-colors duration-500"
+                      className="text-slate-500 group-hover:text-white transition-colors duration-500"
                     />
                   </div>
                 </div>
@@ -171,7 +171,7 @@ export default function Portfolio() {
           className="mt-16 flex items-center gap-6"
         >
           <div className="line-divider flex-1" />
-          <span className="text-[9px] font-mono tracking-[0.4em] uppercase text-slate-300">
+          <span className="text-[9px] font-mono tracking-[0.4em] uppercase text-slate-500">
             Pfizer Central Research — Global Operations
           </span>
           <div className="line-divider flex-1" />

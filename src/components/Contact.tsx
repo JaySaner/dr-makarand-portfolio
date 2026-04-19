@@ -76,7 +76,7 @@ export default function Contact() {
             Establish Global{' '}
             <span className="italic font-normal text-gold">Connection</span>
           </h2>
-          <p className="text-slate-500 text-lg font-light max-w-lg mx-auto leading-relaxed">
+          <p className="text-slate-700 text-lg font-light max-w-lg mx-auto leading-relaxed">
             Inquire regarding board appointments, speaking engagements, or strategic consulting.
           </p>
         </motion.div>
@@ -96,7 +96,7 @@ export default function Contact() {
                   <MapPin size={18} className="text-primary-navy" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-mono tracking-widest uppercase text-slate-400 mb-2">
+                  <p className="text-[10px] font-mono tracking-widest uppercase text-slate-600 mb-2">
                     Primary Hubs
                   </p>
                   <p className="text-primary-navy font-medium leading-relaxed">
@@ -118,7 +118,7 @@ export default function Contact() {
                   <Linkedin size={18} className="text-[#0077b5]" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-mono tracking-widest uppercase text-slate-400 mb-2">
+                  <p className="text-[10px] font-mono tracking-widest uppercase text-slate-600 mb-2">
                     Professional Network
                   </p>
                   <p className="text-primary-navy font-medium group-hover:text-gold transition-colors">
@@ -175,7 +175,7 @@ export default function Contact() {
                   >
                     Inquiry Received
                   </h3>
-                  <p className="text-slate-500 text-sm font-light">
+                  <p className="text-slate-700 text-sm font-light">
                     Thank you for reaching out. Dr. Jawadekar's team will be in touch shortly.
                   </p>
                 </motion.div>
@@ -183,7 +183,7 @@ export default function Contact() {
                 <form className="space-y-7" onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
                     <div className="group">
-                      <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-3 group-focus-within:text-gold transition-colors">
+                      <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-600 mb-3 group-focus-within:text-gold transition-colors">
                         Full Name
                       </label>
                       <input
@@ -196,7 +196,7 @@ export default function Contact() {
                       />
                     </div>
                     <div className="group">
-                      <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-3 group-focus-within:text-gold transition-colors">
+                      <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-600 mb-3 group-focus-within:text-gold transition-colors">
                         Professional Email
                       </label>
                       <input
@@ -211,7 +211,7 @@ export default function Contact() {
                   </div>
 
                   <div className="group">
-                    <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-3 group-focus-within:text-gold transition-colors">
+                    <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-600 mb-3 group-focus-within:text-gold transition-colors">
                       Subject of Inquiry
                     </label>
                     <select
@@ -228,7 +228,7 @@ export default function Contact() {
                   </div>
 
                   <div className="group">
-                    <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-3 group-focus-within:text-gold transition-colors">
+                    <label className="block text-[10px] font-bold uppercase tracking-widest text-slate-600 mb-3 group-focus-within:text-gold transition-colors">
                       Message
                     </label>
                     <textarea

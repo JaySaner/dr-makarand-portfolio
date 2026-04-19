@@ -61,7 +61,7 @@ export default function Recognition() {
             Recognition in the{' '}
             <span className="italic font-normal text-gold">Global Arena.</span>
           </h2>
-          <p className="text-slate-500 text-lg font-light max-w-xl mx-auto leading-relaxed">
+          <p className="text-slate-700 text-lg font-light max-w-xl mx-auto leading-relaxed">
             Distinguished through international accolades, scientific leadership, and cross-continental advisory excellence.
           </p>
         </motion.div>
@@ -90,11 +90,11 @@ export default function Recognition() {
                 {stat.value}
               </span>
               <span
-                className="block text-[10px] font-mono tracking-widest uppercase text-slate-400 mb-4 group-hover:text-white/50 transition-colors duration-500"
+                className="block text-[10px] font-mono tracking-widest uppercase text-slate-600 mb-4 group-hover:text-white/50 transition-colors duration-500"
               >
                 {stat.label}
               </span>
-              <p className="text-xs text-slate-400 leading-relaxed font-light group-hover:text-white/40 transition-colors duration-500">
+              <p className="text-xs text-slate-600 leading-relaxed font-light group-hover:text-white/40 transition-colors duration-500">
                 {stat.detail}
               </p>
             </motion.div>

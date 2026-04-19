@@ -79,7 +79,7 @@ export default function Navbar() {
                   transition={{ delay: 0.08 * idx }}
                   onClick={() => handleNavClick(item.href)}
                   className={`relative text-sm font-medium transition-colors duration-300 group ${
-                    isActive ? 'text-gold' : 'text-slate-500 hover:text-primary-navy'
+                    isActive ? 'text-gold' : 'text-slate-700 hover:text-primary-navy'
                   }`}
                 >
                   {item.label}
@@ -99,7 +99,7 @@ export default function Navbar() {
               href="https://www.linkedin.com/in/makjawadekar/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:flex items-center gap-1.5 text-slate-400 hover:text-gold transition-colors"
+              className="hidden lg:flex items-center gap-1.5 text-slate-600 hover:text-gold transition-colors"
               title="LinkedIn Profile"
             >
               <Linkedin size={15} />

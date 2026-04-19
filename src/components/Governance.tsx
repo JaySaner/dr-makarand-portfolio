@@ -89,7 +89,7 @@ export default function Governance() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="text-slate-500 font-light text-lg max-w-sm leading-relaxed"
+            className="text-slate-700 font-light text-lg max-w-sm leading-relaxed"
             style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}
           >
             Strategic oversight across biotechnology, diplomacy, and global philanthropy.
@@ -144,7 +144,7 @@ export default function Governance() {
                 {board.company}
               </h3>
 
-              <p className="text-slate-500 text-sm leading-relaxed font-light relative z-10">{board.role}</p>
+              <p className="text-slate-700 text-sm leading-relaxed font-light relative z-10">{board.role}</p>
 
               {/* Animated bottom line */}
               <div className="mt-8 relative z-10">

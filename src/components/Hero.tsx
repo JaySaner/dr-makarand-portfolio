@@ -92,7 +92,7 @@ export default function Hero() {
             {/* Subheadline */}
             <motion.p
               variants={itemVariants}
-              className="text-slate-500 leading-relaxed mb-12 max-w-lg"
+              className="text-slate-700 leading-relaxed mb-12 max-w-lg"
               style={{
                 fontFamily: "'Playfair Display', serif",
                 fontSize: 'clamp(1.1rem, 2.2vw, 1.4rem)',
@@ -131,7 +131,7 @@ export default function Hero() {
                   >
                     {value}
                   </span>
-                  <span className="text-slate-400 text-xs">{label}</span>
+                  <span className="text-slate-600 text-xs">{label}</span>
                 </div>
               ))}
             </motion.div>
@@ -219,9 +219,9 @@ export default function Hero() {
         transition={{ delay: 2, duration: 1 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
       >
-        <span className="text-[9px] uppercase tracking-[0.4em] text-slate-400 font-bold">Scroll</span>
+        <span className="text-[9px] uppercase tracking-[0.4em] text-slate-600 font-bold">Scroll</span>
         <div className="scroll-indicator" />
-        <ArrowDown size={12} className="text-slate-300 animate-bounce" />
+        <ArrowDown size={12} className="text-slate-500 animate-bounce" />
       </motion.div>
     </section>
   );

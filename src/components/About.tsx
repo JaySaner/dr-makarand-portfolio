@@ -44,7 +44,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <div className="space-y-6 text-slate-600 leading-relaxed" style={{ fontSize: '1.05rem', fontWeight: 300 }}>
+            <div className="space-y-6 text-slate-800 leading-relaxed" style={{ fontSize: '1.05rem', fontWeight: 300 }}>
               <p>
                 Dr. Jawadekar's legacy is rooted in the creation and leadership of Pfizer's{' '}
                 <span className="font-semibold text-primary-navy">Strategic External Alliance Management</span>.
@@ -78,7 +78,7 @@ export default function About() {
               >
                 "Science without strategy remains invention. Together, they become transformation."
               </p>
-              <footer className="mt-3 text-xs tracking-widest uppercase text-slate-400 font-bold">
+              <footer className="mt-3 text-xs tracking-widest uppercase text-slate-600 font-bold">
                 — Dr. Makarand Jawadekar
               </footer>
             </motion.blockquote>
@@ -151,7 +151,7 @@ export default function About() {
                   >
                     {n}
                   </p>
-                  <p className="text-[10px] text-slate-400 uppercase tracking-widest leading-snug">{sub}</p>
+                  <p className="text-[10px] text-slate-600 uppercase tracking-widest leading-snug">{sub}</p>
                 </div>
               ))}
             </div>

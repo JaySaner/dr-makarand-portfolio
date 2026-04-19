@@ -60,7 +60,7 @@ export default function FutureHorizons() {
             Post-Pfizer{' '}
             <span className="italic font-normal text-gold">Horizons</span>
           </h2>
-          <p className="text-slate-500 text-lg font-light max-w-xl mx-auto">
+          <p className="text-slate-700 text-lg font-light max-w-xl mx-auto">
             Transitioning from pharmaceutical mastery to global strategic innovation across
             multiple industries and continents.
           </p>
@@ -127,7 +127,7 @@ export default function FutureHorizons() {
 
                 <p
                   className={`text-sm leading-relaxed font-light flex-1 ${
-                    card.dark ? 'text-white/60' : 'text-slate-500'
+                    card.dark ? 'text-white/60' : 'text-slate-700'
                   }`}
                 >
                   {card.description}
@@ -139,7 +139,7 @@ export default function FutureHorizons() {
                       card.dark ? 'border-white/20' : 'border-slate-100'
                     }`}
                   >
-                    <ExternalLink size={12} className={card.dark ? 'text-white/30' : 'text-slate-300'} />
+                    <ExternalLink size={12} className={card.dark ? 'text-white/30' : 'text-slate-500'} />
                   </div>
                 </div>
               </div>
