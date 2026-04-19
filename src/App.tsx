@@ -7,7 +7,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Timeline from './components/Timeline';
-import Portfolio from './components/Portfolio';
 import Recognition from './components/Recognition';
 import FutureHorizons from './components/FutureHorizons';
 import Governance from './components/Governance';
@@ -22,7 +21,6 @@ export default function App() {
         <Hero />
         <About />
         <Timeline />
-        <Portfolio />
         <Recognition />
         <FutureHorizons />
         <Governance />
