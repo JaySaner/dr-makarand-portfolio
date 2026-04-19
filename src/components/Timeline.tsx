@@ -3,6 +3,16 @@ import { motion } from 'motion/react';
 export default function Timeline() {
   const milestones = [
     {
+      year: '1981',
+      period: 'Academic Pinnacle',
+      title: 'Doctoral Distinction',
+      institution: 'University of Minnesota',
+      description:
+        'Doctoral research in Pharmaceutical Sciences at UMN, establishing next-generation standards for global drug delivery systems.',
+      tags: ['Ph.D.', 'Excellence'],
+      side: 'left',
+    },
+    {
       year: '1982',
       period: 'Foundation Era',
       title: 'Global R&D Commencement',
@@ -10,37 +20,28 @@ export default function Timeline() {
       description:
         'Initiated a landmark career at Pfizer Central Research, spearheading foundational pharmaceutical R&D that would redefine industry standards.',
       tags: ['Research', 'Development'],
-      side: 'left',
-    },
-    {
-      year: '1990',
-      period: 'Academic Pinnacle',
-      title: 'Doctoral Distinction',
-      institution: 'University of Minnesota',
-      description:
-        'Doctoral research in Pharmaceutical Sciences at UMN, establishing next-generation standards for global drug delivery systems.',
-      tags: ['Ph.D.', 'Excellence'],
       side: 'right',
     },
-    {
-      year: '2006',
-      period: 'Strategic Era',
-      title: 'SEAM Formation',
-      institution: 'Pfizer Inc. — New York',
-      description:
-        'Founded and led the Strategic External Alliance Management (SEAM) group, orchestrating multi-billion dollar global R&D partnerships.',
-      tags: ['Leadership', 'Global'],
-      side: 'left',
-    },
+
+    // {
+    //   year: '2006',
+    //   period: 'Strategic Era',
+    //   title: 'SEAM Formation',
+    //   institution: 'Pfizer Inc. — New York',
+    //   description:
+    //     'Founded and led the Strategic External Alliance Management (SEAM) group, orchestrating multi-billion dollar global R&D partnerships.',
+    //   tags: ['Leadership', 'Global'],
+    //   side: 'left',
+    // },
     {
       year: 'NOW',
       period: 'Advisory Era',
       title: 'Global Advisory & Governance',
       institution: 'International Hubs',
       description:
-        'Advising the Saudi Royal Family on Vision 2030 healthcare, and leading boards for NanoViricides and PreveCeutical across continents.',
+        'Advising the Saudi Arabian Royal Private Family Office on Vision 2030 healthcare, and leading boards for NanoViricides and PreveCeutical across continents.',
       tags: ['Governance', 'Advisory'],
-      side: 'right',
+      side: 'left',
     },
   ];
 
@@ -187,9 +188,8 @@ function CenterDot({ year }: { year: string }) {
 function TimelineCard({ m, align }: { m: any; align: 'left' | 'right' }) {
   return (
     <div
-      className={`max-w-sm w-full border border-white/10 p-8 group hover:border-gold/40 transition-all duration-500 ${
-        align === 'right' ? 'text-right' : 'text-left'
-      }`}
+      className={`max-w-sm w-full border border-white/10 p-8 group hover:border-gold/40 transition-all duration-500 ${align === 'right' ? 'text-right' : 'text-left'
+        }`}
       style={{ background: 'rgba(255,255,255,0.04)' }}
     >
       <div className={`flex items-start gap-2 mb-6 ${align === 'right' ? 'flex-row-reverse justify-start' : ''}`}>
@@ -212,9 +212,8 @@ function TimelineCard({ m, align }: { m: any; align: 'left' | 'right' }) {
         {m.title}
       </h3>
       <div
-        className={`h-px w-0 group-hover:w-full bg-gradient-to-r from-gold to-transparent mb-4 transition-all duration-700 ${
-          align === 'right' ? 'ml-auto bg-gradient-to-l' : ''
-        }`}
+        className={`h-px w-0 group-hover:w-full bg-gradient-to-r from-gold to-transparent mb-4 transition-all duration-700 ${align === 'right' ? 'ml-auto bg-gradient-to-l' : ''
+          }`}
       />
       <p className="text-white/40 text-sm leading-relaxed font-light">{m.description}</p>
     </div>

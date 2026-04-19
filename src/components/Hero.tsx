@@ -20,7 +20,7 @@ export default function Hero() {
   };
 
   const stats = [
-    { icon: Award, value: '28+', label: 'Years at Pfizer' },
+    { icon: Award, value: '16+', label: 'Years of Independent Leadership Activities' },
     { icon: Globe, value: '150+', label: 'Global Talks' },
     { icon: BookOpen, value: '50+', label: 'Publications' },
   ];
@@ -198,7 +198,7 @@ export default function Hero() {
                   className="text-5xl font-bold block mb-1 text-gold"
                   style={{ fontFamily: "'JetBrains Mono', monospace" }}
                 >
-                  28+
+                  16+
                 </span>
                 <span
                   className="text-[9px] uppercase tracking-[0.35em] text-white/50"

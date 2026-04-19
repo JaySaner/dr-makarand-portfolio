@@ -10,7 +10,7 @@ This document contains all the text content from the website, organized by secti
 **Subheadline:** Transforming pharmaceutical R&D through nearly three decades of leadership and multi-billion dollar strategic collaborations.
 
 **Key Stats:**
-* 28+ Years at Pfizer (Years of Impact)
+* 16+ Years of Independent Leadership Activities (Years of Impact)
 * 150+ Global Talks
 * 50+ Publications
 
