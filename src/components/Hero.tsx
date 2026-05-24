@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowDown, Award, Globe, BookOpen } from 'lucide-react';
+import drJawadekarImg from '../assets/dr_jawadekar.jpg';
 
 export default function Hero() {
   const containerVariants = {
@@ -173,8 +174,7 @@ export default function Hero() {
                     (e.target as HTMLImageElement).style.filter = 'saturate(0.85) contrast(1.05)';
                     (e.target as HTMLImageElement).style.transform = 'scale(1)';
                   }}
-                  src="https://lh3.googleusercontent.com/aida/ADBb0ugoKjV4wOFp8gKmFFZLW5qLwJdPXxKbYbdXlOuq-4Z_T7Zgty2WqIk2xWd0gjfYaMGkT9GTcWHFtKiMxcG8_gwcHSiURLTcv69ods1CBiTOLVRGgqTRtVogvRF-YczenTXra_Def-hvQkQ3cVLf10wm6JdTxSx9XrFJpq5pJSIKpAPuV_AF1PamwW-_TdZXA4pEa6LhDVokZabPtEWXTfkYX39iI-1e1NPC4sumdmQW2swpJHvZL_jHSjgv-80kPiQDWvoSsyVfQK4"
-                  referrerPolicy="no-referrer"
+                  src={drJawadekarImg}
                 />
                 {/* gradient overlay */}
                 <div
